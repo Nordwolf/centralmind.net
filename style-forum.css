@@ -478,7 +478,7 @@ html {
   z-index: 257;
   margin-left: 0%;
 }
-#logo_or_title::after {
+/* #logo_or_title::after {
     content: '';
     display: block;
     -moz-box-sizing: border-box;
@@ -490,9 +490,9 @@ object-fit: cover;
 width: 140%;
 height: 140%;
 background-size: contain;
-}
+} */
 
-/* #logo_or_title::after {
+#logo_or_title::after {
   content:'';
   position: absolute;
   display: block;
@@ -504,7 +504,7 @@ background-size: contain;
   background-size: 140px;
   z-index: 256;
   pointer-events: none;
-} */
+}
 
 html::before {
   content:'';
